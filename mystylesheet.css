@@ -1,0 +1,263 @@
+body {
+    background-color: black;
+}
+
+#home {
+    font-family: campaign-serif, sans-serif;
+  }
+  
+  h1 {
+    font-family: campaign-serif, sans-serif;
+    font-weight: 100;
+    font-size: 90px;
+    color: white;
+    padding-left: 50px;
+  }
+  
+  a {
+    font-family: campaign-serif, sans-serif;
+    font-weight: 500;
+    font-size: 90px;
+    text-decoration: none;
+    margin-right: 50px;
+  }
+  
+  a:link {
+    color:rgb(255, 255, 255);
+  }
+  
+  a:visited {
+    color: white;
+  }
+  
+  .home-link {
+    font-family: campaign-serif, sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+  }
+  
+  .header a {
+    font-family: campaign-serif, sans-serif;
+    font-weight: 500;
+    font-size: 80px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-right: 20px;
+  }
+  
+  .header a:hover {
+    color: #555;
+  }
+  
+  .header .home-link a {
+    font-family: campaign-serif, sans-serif;
+    font-weight: 100;
+    font-size: 60px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-right: 20px;
+    letter-spacing: 20px;
+  }
+  
+  .header .home-link a:hover {
+    color: #555;
+  }
+  
+  .header .home-link {
+    margin-left: auto;
+  }
+  
+  .container1 {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .container1 img {
+    margin-top: 20px;
+    padding: 50px;
+    max-width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+  }
+  
+  @media screen and (max-width: 768px) {
+    h1 {
+      font-size: 60px;
+    }
+  
+    a {
+      font-size: 60px;
+    }
+  
+    .home-link {
+      font-size: 30px;
+    }
+  
+    .header a {
+      font-size: 60px;
+    }
+  
+    .header .home-link a {
+      font-size: 40px;
+    }
+  
+    .container1 img {
+      padding: 60px;
+    }
+  }
+
+#about
+  p {
+    padding-left: 40px;
+    padding-right: 20px;
+    font-family: elizeth-condensed, serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    box-sizing: border-box;
+  }
+  
+  .aboutcontainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .aboutcontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .aboutimg {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    padding-right: 20px;
+  }
+  
+  @media (min-width: 768px) {
+
+      p {
+        font-size: 30em;
+      }
+    
+      a {
+        font-size: 20px;
+      }
+    
+      .home-link {
+        font-size: 30px;
+      }
+    
+      .header a {
+        font-size: 60px;
+      }
+    
+      .header .home-link a {
+        font-size: 40px;
+      }  
+
+    #about p {
+      font-size: 30px;
+    }
+  
+    .aboutcontainer {
+      flex-direction: row-reverse;
+    }
+  
+    .aboutcontent {
+      flex-direction: row-reverse;
+      align-items: center;
+    }
+  
+    .aboutimg {
+      width: 46%;
+      height: 46%;
+    }
+  }
+
+
+
+#work
+
+
+h2 {
+  padding-left: 40px;
+  color: white;
+  font-family: campaign-serif, sans-serif;
+  font-weight: 200;
+  font-size: 4rem;
+}
+
+.img-containers {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cont-1,.cont-2 {
+    flex-basis: 100%;
+}
+
+.cont-1 {
+    padding-left: 40px;
+}
+
+.cont-2 {
+    padding-left: 200px; /* adjust the padding value as needed */
+    padding-top: 150px
+}
+
+.img-containers img {
+    width: 30%;
+    height: auto;
+}
+
+@media (max-width: 767px) {
+
+    h2 {
+      font-size: 2.5rem; /* adjust font size for mobile devices */
+      padding-left: 1.5rem; /* adjust padding for mobile devices */
+    }
+    
+      a {
+        font-size: 60px;
+      }
+    
+      .home-link {
+        font-size: 30px;
+      }
+    
+      .header a {
+        font-size: 60px;
+      }
+    
+      .header .home-link a {
+        font-size: 40px;
+      }
+    
+      .container1 img {
+        padding: 40px;
+      }
+
+      .img-containers {
+        flex-direction: column;
+      }
+  
+      .img-containers img {
+        width: 100%;
+        height: auto;
+      }
+  
+      .cont-2 {
+        padding-left: 40px;
+        padding-top: 20px;
+      }
+    }
